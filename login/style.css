@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    font-family: "Barlow Condensed", sans-serif;
+    color: var(--dark);
+}
+
+:root {
+    --main-bg-color: #FED15A;
+    --dark: #000;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.u-ohidden{
+    overflow: hidden;
+}
+
+input[type="submit"]{
+    border: none;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(BG.svg);
+}
+
+.login .card{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 20px 18px 0px 0px;
+    background-color: var(--main-bg-color);
+}
+
+.login .card form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login h1{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 55px;
+}
+
+.login .section{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login .section input[type="password"], .login .section input[type="text    "]{
+    width: 250px;
+    font-size:18px;
+    border: none;
+}
+
+.login .section label{
+    width: 100px;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.login input[type="submit"]{
+    margin-top: 30px;
+    background-color: var(--dark);
+    color: white;
+    width: 180px;
+    height: 60px;
+    font-size: 25px;
+}

@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    font-family: "Barlow Condensed", sans-serif;
+    color: var(--dark);
+}
+
+:root {
+    --main-bg-color: #FED15A;
+    --dark: #000;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.u-ohidden{
+    overflow: hidden;
+}
+
+button{
+    border: none;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.header{
+    background-color: var(--main-bg-color);
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.header a{
+    background-color: var(--dark);
+    padding: 8px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.DS h2{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.DS .section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.DS .section input{
+    width: 400px;
+    font-size: 21px;
+}
+
+.DS form{
+    margin: 50px;
+    margin: 10px 50px 50px 50px;
+}
+
+.tableau{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.tableau input{
+    height: 20px;
+    width: 100%;
+    background-color: #ff9494;
+}
+
+.tableau input:hover{
+    background-color: #ff6b6b;
+}
