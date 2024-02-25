@@ -32,7 +32,7 @@ button{
 
 .ADD{
     background-color: var(--main-bg-color);
-    width: 100vw;
+    width: 100%;
     height: 30px;
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@ button{
 
 .headline {
     height: 35px;
-    width: 100vw;
+    width: 100%;
     background-color: var(--dark);
     display: flex;
     justify-content: space-between;
@@ -163,7 +163,7 @@ button{
 
 .menu{
     height: 113px;
-    width: 100vw;
+    width: 100%;
     background-color: #fff;
 }
 
