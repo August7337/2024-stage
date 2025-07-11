@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Comics</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://unpkg.com/stimulus/dist/stimulus.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/stimulus-carousel/dist/stimulus-carousel.umd.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+        <div class="ADD">
+            <div class=""></div>
+            <div class="sentece">
+                <p>
+                    Toujours dans ma poche : Des petits formats à petits prix, disponibles en librairie ! De 5.90€ à 9.90€.
+                </p>
+                <a>
+                    découvrir
+                </a>
+            </div>
+            <img src="svg/header/Close.svg" alt="Close">
+        </div>
+        <div class="LOGO">
+            <img src="svg/menu/LOGO.svg" alt="LOGO">
+        </div>
+        <div class="headline">
+            <div class="left-zone">
+                <div class="others-website">
+                    <div class="content">
+                        <img src="svg/header/burger-menu.svg" alt="burger-menu">
+                        <p>NOS AUTRES SITES</p>
+                    </div>
+                </div>
+                <div class="espace-pro">
+                    <p>Espace pro</p>
+                    <img src="svg/header/v.svg" alt="v">
+                </div>
+            </div>
+            <div class="right-zone">
+                <div class="block">
+                    <div class="RS">
+                        <img src="svg/header/facebook.svg" alt="facebook">
+                        <img src="svg/header/twitter.svg" alt="twitch">
+                        <img src="svg/header/ytb.svg" alt="youtube">
+                        <img src="svg/header/insta.svg" alt="instagrame">
+                        <img src="svg/header/twitch.svg" alt="twitch">
+                    </div>
+                </div>
+                <div class="NL">
+                    <p>#READINGMYSUPERPOWER</p>
+                    <img src="svg/header/mail.svg" alt="mail">
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="content">
+                <div class="search">
+                    <p>
+                        Rechercher par genre, auteur...
+                    </p>
+                    <div class="btn">
+                        <img src="svg/menu/search.svg" alt="search">
+                    </div>
+                </div>
+                <div class="icons">
+                    <div class="guide">
+                        <img src="svg/menu/guide.svg" alt="guide">
+                        <div class="content">
+                            <div class="text">
+                                <div class="haut">
+                                    <p>GUIDE : </p>
+                                    <p>TROUVER</p>
+                                </div>
+                                <p>MON COMICS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <div class="icon-cart">
+                            <img src="svg/menu/cart.svg" alt="cart">
+                            <div class="circle">
+                                <p>35</p>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <p>Panier</p>
+                            <p>439,98e</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="low">
+                <div class="entries">
+                    <p>A paraitre</p>
+                    <div class="catalogue">
+                        <p>Catalogue</p>
+                        <img src="svg/menu/v.svg" alt="v">
+                    </div>
+                    <p>Auters</p>
+                    <p>Actualités</p>
+                    <div class="personnages">
+                        <p>Catalogue</p>
+                        <img src="svg/menu/v.svg" alt="v">
+                    </div>
+                    <p>Par ou débuter ?</p>
+                    <div class="bonus">
+                        <p>NEW !</p>
+                        <p>Bonus</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="sticky-RS">
+        <div class="color">
+            <div class="RS">
+                <img src="svg/sticky-RS/facebook.svg" alt="facebook">
+                <img src="svg/sticky-RS/twitter.svg" alt="twitter">
+                <img src="svg/sticky-RS/youtube.svg" alt="youtube">
+                <img src="svg/sticky-RS/instagrame.svg" alt="instagrame">
+                <img src="svg/sticky-RS/twitch.svg" alt="twitch">
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper_slider u-ohidden main-container-slider">
+       <div class="slider">
+            <div data-controller="carousel" class="swiper-container"
+            data-carousel-options-value='{"slidesPerView": "1", "centeredSlides" : true, "loop" : true, "navigation": {"nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev" }, "pagination": {"el": ".swiper-pagination"} }'>
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="overlay">
+                            <img src="png/slider/slide2.png" alt="">
+                            <div class="Bloc-text">
+                                <p>Slide 1</p>
+                                <p>DANS LE TOME 2 DE SUPERMAN INFINITE</p>
+                                <p>
+                                    Au terme du premier tome de cette série, 
+                                    un Superman affaibli s’envolait 
+                                    en compagnie des membres de The Authority 
+                                    afin de libérer le Warworld du joug de Mongul.
+                                </p>
+                                <button>
+                                    <p>DECOUVRIRE</p>
+                                    <img src="svg/slider/decouvrire.svg" alt="fleche">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="overlay">
+                            <img src="png/slider/slide1.png" alt="">
+                            <div class="Bloc-text">
+                                <p>Slide 2</p>
+                                <p>DANS LE TOME 2 DE SUPERMAN INFINITE</p>
+                                <p>
+                                    Au terme du premier tome de cette série, 
+                                    un Superman affaibli s’envolait 
+                                    en compagnie des membres de The Authority 
+                                    afin de libérer le Warworld du joug de Mongul.
+                                </p>
+                                <button>
+                                    <p>DECOUVRIRE</p>
+                                    <img src="svg/slider/decouvrire.svg" alt="fleche">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="overlay">
+                            <img src="png/slider/slide3.png" alt="">
+                            <div class="Bloc-text">
+                                <p>Slide 3</p>
+                                <p>DANS LE TOME 2 DE SUPERMAN INFINITE</p>
+                                <p>
+                                    Au terme du premier tome de cette série, 
+                                    un Superman affaibli s’envolait 
+                                    en compagnie des membres de The Authority 
+                                    afin de libérer le Warworld du joug de Mongul.
+                                </p>
+                                <button>
+                                    <p>DECOUVRIRE</p>
+                                    <img src="svg/slider/decouvrire.svg" alt="fleche">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"><img src="svg/slider/fleche-droite.svg" alt="fleche-gauche"></div>
+                <div class="swiper-button-prev"><img src="svg/slider/fleche-gauche.svg" alt="fleche-droite"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Nouveautes">
+        <div class="heading">
+            <div class="text">
+                <p>NOUVEAUTES</p>
+                <p>DERNIERES SORTIES</p>
+            </div>
+            <button>
+                <p>VOIR TOUTES LES NOUVEAUTES</p>
+                <img src="svg/Nouveautes/arrow.svg" alt="fleche">
+            </button>
+        </div>
+
+        <div class="wrapper_slider u-ohidden">
+        
+                <div data-controller="carousel" class="swiper-container" 
+                data-carousel-options-value='{"slidesPerView": "4", "spaceBetween": 20, "freeMode" : true, "navigation": {"nextEl": ".swiper-button-next-N", "prevEl": ".swiper-button-prev-N"}, "scrollbar": {"el": ".swiper-scrollbar-N", "draggable" : true}}'>
+    
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="sc">SERIE COMPLETE !</div>
+                        <div class="card">
+                            <img src="png/Nouveautes/flash.png" alt="flash" loading="lazy" width="280" height="438">
+                            <div class="hover">
+                                <div class="section">
+                                    <p>Sortie le 26 aout 2022</p>
+                                    <p>FLASH INFINITE <br> TOME 2</p>
+                                    <div class="categorie">
+                                        <div class="outline">DC INFINITE</div>
+                                        <div class="outline"> FLASH INFINITE</div>
+                                    </div>
+                                </div>
+                                <button>
+                                    <p>EN SAVOIR PLUS</p>
+                                    <img src="svg/Nouveautes/arrow.svg" alt="fleche">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="png/Nouveautes/billionaire-island.png" alt="billionaire-island" loading="lazy" width="280" height="438">
+                            <div class="hover">
+                                <div class="section">
+                                    <p>Sortie le 30 novembre 2012</p>
+                                    <p>BILLIONAIRE ISLAND <br> TOME 23</p>
+                                    <div class="categorie">
+                                        <div class="outline">AVENTURE</div>
+                                        <div class="outline"> BILLIONAIRE ISLAND</div>
+                                    </div>
+                                </div>
+                                <button>
+                                    <p>EN SAVOIR PLUS</p>
+                                    <img src="svg/Nouveautes/arrow.svg" alt="fleche">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card" >
+                            <img src="png/Nouveautes/sleeper.png" alt="sleeper" loading="lazy" width="280" height="438">
+                            <div class="hover">
+                                <div class="section">
+                                    <p>Sortie le 5 juin 2002</p>
+                                    <p>SLEEPER <br> TOME 1</p>
+                                    <div class="categorie">
+                                        <div class="outline">DC COMICS</div>
+                                        <div class="outline"> SLEEPER</div>
+                                    </div>
+                                </div>
+                                <button>
+                                    <p>EN SAVOIR PLUS</p>
+                                    <img src="svg/Nouveautes/arrow.svg" alt="fleche">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="sc">SERIE COMPLETE !</div>
+                        <div class="card" >
+                            <img src="png/Nouveautes/justice-league.png" alt="justice-league" loading="lazy" width="280" height="438">
+                            <div class="hover">
+                                <div class="section">
+                                    <p>Sortie le 10 avril 2015</p>
+                                    <p>JUSTICE LEAGUE <br> TOME 12</p>
+                                    <div class="categorie">
+                                        <div class="outline">DC COMICS</div>
+                                        <div class="outline">JUSTICE LEAGUE</div>
+                                    </div>
+                                </div>
+                                <button>
+                                    <p>EN SAVOIR PLUS</p>
+                                    <img src="svg/Nouveautes/arrow.svg" alt="fleche">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="png/Nouveautes/flash.png" alt="flash" loading="lazy" width="280" height="438">
+                            <div class="hover">
+                                <div class="section">
+                                    <p>Sortie le 26 aout 2022</p>
+                                    <p>FLASH INFINITE <br> TOME 2</p>
+                                    <div class="categorie">
+                                        <div class="outline">DC INFINITE</div>
+                                        <div class="outline"> FLASH INFINITE</div>
+                                    </div>
+                                </div>
+                                <button>
+                                    <p>EN SAVOIR PLUS</p>
+                                    <img src="svg/Nouveautes/arrow.svg" alt="fleche">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="sc">SERIE COMPLETE !</div>
+                        <div class="card">
+                            <img src="png/Nouveautes/billionaire-island.png" alt="billionaire-island" loading="lazy" width="280" height="438">
+                            <div class="hover">
+                                <div class="section">
+                                    <p>Sortie le 30 novembre 2012</p>
+                                    <p>BILLIONAIRE ISLAND <br> TOME 23</p>
+                                    <div class="categorie">
+                                        <div class="outline">AVENTURE</div>
+                                        <div class="outline"> BILLIONAIRE ISLAND</div>
+                                    </div>
+                                </div>
+                                <button>
+                                    <p>EN SAVOIR PLUS</p>
+                                    <img src="svg/Nouveautes/arrow.svg" alt="fleche">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card" >
+                            <img src="png/Nouveautes/sleeper.png" alt="sleeper" loading="lazy" width="280" height="438">
+                            <div class="hover">
+                                <div class="section">
+                                    <p>Sortie le 5 juin 2002</p>
+                                    <p>SLEEPER <br> TOME 1</p>
+                                    <div class="categorie">
+                                        <div class="outline">DC COMICS</div>
+                                        <div class="outline"> SLEEPER</div>
+                                    </div>
+                                </div>
+                                <button>
+                                    <p>EN SAVOIR PLUS</p>
+                                    <img src="svg/Nouveautes/arrow.svg" alt="fleche">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="card" >
+                            <img src="png/Nouveautes/justice-league.png" alt="justice-league" loading="lazy" width="280" height="438">
+                            <div class="hover">
+                                <div class="section">
+                                    <p>Sortie le 10 avril 2015</p>
+                                    <p>JUSTICE LEAGUE <br> TOME 12</p>
+                                    <div class="categorie">
+                                        <div class="outline">DC COMICS</div>
+                                        <div class="outline">JUSTICE LEAGUE</div>
+                                    </div>
+                                </div>
+                                <button>
+                                    <p>EN SAVOIR PLUS</p>
+                                    <img src="svg/Nouveautes/arrow.svg" alt="fleche">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="nav">
+                <div class="swiper-button-prev-N"><img src="svg/slider/fleche-gauche.svg" alt="fleche-droite" loading="lazy"></div>
+                <div class="swiper-scrollbar-N"></div>
+                <div class="swiper-button-next-N"><img src="svg/slider/fleche-droite.svg" alt="fleche-gauche" loading="lazy"></div>
+            </div>
+    
+        </div>
+    </div>
+
+    <div class="Gender-Univers">
+        <div class="tabs">
+            <div class="container" id="Genres-div">
+                <img src="svg/gender-univers/arrow.svg" alt="fleche vers la droite" loading="lazy" id="Genres-arrow">
+                <div class="content">
+                    <p>RECHERCHER PAR</p>
+                    <div class="counter">
+                        <p>GENRES</p>
+                        <div class="circle">
+                            <p>7</p>
+                        </div>
+                    </div>
+                    <button>
+                        <p>VOIR TOUS LES GENRES</p>
+                        <img src="svg/gender-univers/petite-fleche.svg" alt="petite-fleche" loading="lazy" id="Genres-btn">
+                    </button>
+                    <button onclick="GenresClicked()" id="g-m-btn" class="main-btn"></button>
+                </div>
+            </div>
+
+            <div class="container" id="Univers-div">
+                <img src="svg/gender-univers/arrow.svg" alt="fleche vers la droite" loading="lazy" id="Univers-arrow">
+                <div class="content">
+                    <p>EXPLORER LES</p>
+                    <div class="counter">
+                        <p>UNIVERS</p>
+                        <div class="circle">
+                            <p>72</p>
+                        </div>
+                    </div>
+                    <button id="Univers-btn">
+                        <p>VOIR TOUS LES UNIVERS</p>
+                        <img src="svg/gender-univers/petite-fleche.svg" alt="petite-fleche" loading="lazy">
+                    </button>
+                </div>
+                <button onclick="UniversClicked()" id="u-m-btn" class="main-btn"></button>
+            </div>
+        </div>
+
+
+        <div class="slider-wrapper u-ohidden">
+            <div data-controller="carousel" class="swiper-container" id="g-slider" 
+                data-carousel-options-value='{"slidesPerView": "auto", "spaceBetween": 20, "freeMode" : true, "navigation": {"nextEl": ".swiper-button-next-U", "prevEl": ".swiper-button-prev-U"}}'>
+    
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="png/Gender-Univers/batman.png" alt="batman" loading="lazy" width="370" height="470">
+                            <div class="overlay">
+                                <div class="content">
+                                    <div class="square" style="background-color: #9E0C26;"></div>
+                                    <p>AVENTURE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="png/Gender-Univers/jocker.png" alt="jocker" loading="lazy" width="370" height="470">
+                            <div class="overlay">
+                                <div class="content">
+                                    <div class="square" style="background-color: #83929B;"></div>
+                                    <p>DOCUMENTAIRE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="png/Gender-Univers/green.png" alt="image de green lanterne" loading="lazy" width="370" height="470">
+                            <div class="overlay">
+                                <div class="content">
+                                    <div class="square" style="background-color: #0092C8;"></div>
+                                    <p>SCIENCE-FICTION</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="png/Gender-Univers/batman.png" alt="batman" loading="lazy" width="370" height="470">
+                            <div class="overlay">
+                                <div class="content">
+                                    <div class="square" style="background-color: #9E0C26;"></div>
+                                    <p>AVENTURE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="png/Gender-Univers/jocker.png" alt="jocker" loading="lazy" width="370" height="470">
+                            <div class="overlay">
+                                <div class="content">
+                                    <div class="square" style="background-color: #83929B;"></div>
+                                    <p>DOCUMENTAIRE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="png/Gender-Univers/green.png" alt="image de green lanterne" loading="lazy" width="370" height="470">
+                            <div class="overlay">
+                                <div class="content">
+                                    <div class="square" style="background-color: #0092C8;"></div>
+                                    <p>SCIENCE-FICTION</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="slider-wrapper u-ohidden" >
+            <div data-controller="carousel" class="swiper-container" id="u-slider" 
+                data-carousel-options-value='{"slidesPerView": "auto", "spaceBetween": 20, "freeMode" : true, "navigation": {"nextEl": ".swiper-button-next-U", "prevEl": ".swiper-button-prev-U"}}'>
+    
+                <div class="swiper-wrapper">
+
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="png/Gender-Univers/jocker.png" alt="jocker" loading="lazy" width="370" height="470">
+                            <div class="overlay">
+                                <div class="content">
+                                    <div class="square" style="background-color: #83929B;"></div>
+                                    <p>MARVEL</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="png/Gender-Univers/batman.png" alt="batman" loading="lazy" width="370" height="470">
+                            <div class="overlay">
+                                <div class="content">
+                                    <div class="square" style="background-color: #9E0C26;"></div>
+                                    <p>DC</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="png/Gender-Univers/green.png" alt="image de green lanterne" loading="lazy" width="370" height="470">
+                            <div class="overlay">
+                                <div class="content">
+                                    <div class="square" style="background-color: #0092C8;"></div>
+                                    <p>AUTRE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="png/Gender-Univers/jocker.png" alt="jocker" loading="lazy" width="370" height="470">
+                            <div class="overlay">
+                                <div class="content">
+                                    <div class="square" style="background-color: #83929B;"></div>
+                                    <p>MARVEL</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="png/Gender-Univers/batman.png" alt="batman" loading="lazy" width="370" height="470">
+                            <div class="overlay">
+                                <div class="content">
+                                    <div class="square" style="background-color: #9E0C26;"></div>
+                                    <p>DC</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="png/Gender-Univers/green.png" alt="image de green lanterne" loading="lazy" width="370" height="470">
+                            <div class="overlay">
+                                <div class="content">
+                                    <div class="square" style="background-color: #0092C8;"></div>
+                                    <p>AUTRE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Actus">
+        <p>NEWSURBAN</p>
+        <p>DANS L'ACTUALITE</p>
+
+        <div class="tags">
+
+            <div class="tag active">
+                <img src="svg/actus/check.svg" alt="check" loading="lazy" class="active">
+                <p>Tout</p>
+            </div>
+
+            <div class="tag">
+                <img src="svg/actus/check.svg" alt="check" loading="lazy">
+                <p>Actualités</p>
+            </div>
+
+            <div class="tag">
+                <img src="svg/actus/check.svg" alt="check" loading="lazy">
+                <p>Concours</p>
+            </div>
+
+            <div class="tag">
+                <img src="svg/actus/check.svg" alt="check" loading="lazy">
+                <p>Fonds d'écran</p>
+            </div>
+
+            <div class="tag">
+                <img src="svg/actus/check.svg" alt="check" loading="lazy">
+                <p>Quiz</p>
+            </div>
+
+            <div class="tag">
+                <img src="svg/actus/check.svg" alt="check" loading="lazy">
+                <p>Vidéo</p>
+            </div>
+
+        </div>
+
+        <div class="articles">
+
+            <div class="article">
+                <img src="png/Actus/img1.png" alt="article">
+                <div class="a-tags">
+                    <p></p>
+                </div>
+                <p>FONDS D'ECRAN : DEADLY CLASS</p>
+                <p>Le talent visuel de Wes CRAIG au service de la série la plus personnelle de Rick REMENDER est la recette parfaite pour une série de choc ! La suite de Deadly...</p>
+                <button>
+                    <img src="svg/actus/Vector-1.svg" alt="">
+                </button>
+            </div>
+
+            <div class="article">
+                <img src="png/Actus/img2.png" alt="article">
+                <div class="a-tags">
+                    <p></p>
+                </div>
+                <p>ALEX MAEEV : PORTFOLIO</p>
+                <p>Le talent visuel de Wes CRAIG au service de la série la plus personnelle de Rick REMENDER est la recette parfaite pour une série de choc ! La suite de Deadly...</p>
+                <button>
+                    <img src="svg/actus/Vector-1.svg" alt="">
+                </button>
+            </div>
+
+            <div class="article">
+                <img src="png/Actus/img3.png" alt="article">
+                <div class="a-tags">
+                    <p></p>
+                </div>
+                <p>BATMAN DAY 2022 : SAVE THE DATE</p>
+                <p>Le talent visuel de Wes CRAIG au service de la série la plus personnelle de Rick REMENDER est la recette parfaite pour une série de choc ! La suite de Deadly...</p>
+                <button>
+                    <img src="svg/actus/Vector-1.svg" alt="">
+                </button>
+            </div>
+
+            
+        </div>
+        
+    </div>
+
+    <script>
+        const application = Stimulus.Application.start()
+
+        application.register('carousel', window.StimulusCarousel);
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
